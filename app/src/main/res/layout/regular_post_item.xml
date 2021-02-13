@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/view_holder_padding">
+
+    <TextView
+        android:id="@+id/tvPostTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_view_padding"
+        android:textColor="@color/black"
+        android:textSize="@dimen/post_title_text_size"
+        tools:text="tvPostTitle" />
+
+    <TextView
+        android:id="@+id/tvPostBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_holder_margin"
+        android:padding="@dimen/text_view_padding"
+        android:textColor="@color/black"
+        android:textSize="@dimen/post_body_text_size"
+        tools:text="tvPostBody" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvWarningLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_view_padding"
+            android:text="@string/warning_label"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/post_author_text_size"
+            android:textStyle="bold"
+            android:background="@color/warning_label_bg"
+            android:visibility="gone"
+            tools:text="З попередженням" />
+
+        <TextView
+            android:id="@+id/tvPostAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_view_padding"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/post_author_text_size"
+            tools:text="User \#42" />
+
+    </LinearLayout>
+
+</LinearLayout>

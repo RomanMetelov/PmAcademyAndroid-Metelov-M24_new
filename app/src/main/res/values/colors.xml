@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="normal_post_bg">#FFFFFFFF</color>
+    <color name="warning_post_bg">#F6BF6D</color>
+    <color name="warning_label_bg">#F8980A</color>
+    <color name="banned_post_bg">#FF675C</color>
 </resources>

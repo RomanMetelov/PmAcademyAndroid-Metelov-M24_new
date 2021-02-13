@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PmAcademyAndroid-Metelov-M24</string>
+
+    <string name="user_id">\#%s</string>
+    <string name="warning_label">З попередженням</string>
+    <string name="user_banned">Тут міг бути пост \#%s, але він забанений</string>
+
 </resources>
