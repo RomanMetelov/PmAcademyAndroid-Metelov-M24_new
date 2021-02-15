@@ -26,6 +26,7 @@
         tools:text="tvPostBody" />
 
     <LinearLayout
+        android:id="@+id/author"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
@@ -35,13 +36,13 @@
             android:id="@+id/tvWarningLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/warning_label_bg"
             android:padding="@dimen/text_view_padding"
             android:text="@string/warning_label"
             android:textAlignment="viewEnd"
             android:textColor="@color/black"
             android:textSize="@dimen/post_author_text_size"
             android:textStyle="bold"
-            android:background="@color/warning_label_bg"
             android:visibility="gone"
             tools:text="З попередженням" />
 
@@ -51,6 +52,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/text_view_padding"
             android:textAlignment="viewEnd"
+            android:textColor="@color/black"
             android:textSize="@dimen/post_author_text_size"
             tools:text="User \#42" />
 

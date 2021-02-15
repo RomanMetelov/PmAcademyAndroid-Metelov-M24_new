@@ -8,9 +8,9 @@
 
     <TextView
         android:id="@+id/tvPostBody"
-        android:padding="@dimen/text_view_padding"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="@dimen/text_view_padding"
         android:textColor="@color/black"
         android:textSize="@dimen/post_body_text_size" />
 

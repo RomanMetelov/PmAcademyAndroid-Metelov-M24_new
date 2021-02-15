@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">PmAcademyAndroid-Metelov-M24</string>
 
-    <string name="user_id">\#%s</string>
+    <string name="user_id">Юзер \#%s</string>
     <string name="warning_label">З попередженням</string>
-    <string name="user_banned">Тут міг бути пост \#%s, але він забанений</string>
+    <string name="user_banned">Тут міг бути пост Юзера \#%s, але він забанений</string>
+    <string name="error_loading_posts">Error loading posts</string>
+    <string name="error">Error undefined</string>
 
 </resources>
