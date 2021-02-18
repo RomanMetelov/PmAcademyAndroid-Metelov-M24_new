@@ -9,6 +9,8 @@ import com.example.pmacademyandroid_metelov_m24.domain.UserType
 import com.example.pmacademyandroid_metelov_m24.utils.Result
 
 
+
+
 class PostsUiMapper(private val context: Context) {
     fun map(postResult: Result<List<PostModel>, PostErrors>): Result<List<PostUiModel>, String> {
         return postResult.mapSuccess { posts ->
