@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="@dimen/view_holder_padding">
+    android:padding="@dimen/padding_between_views">
 
     <TextView
         android:id="@+id/tvPostTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/text_view_padding"
+        android:padding="@dimen/padding_between_views"
         android:textColor="@color/black"
         android:textSize="@dimen/post_title_text_size"
         tools:text="tvPostTitle" />
@@ -19,8 +19,8 @@
         android:id="@+id/tvPostBody"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/view_holder_margin"
-        android:padding="@dimen/text_view_padding"
+        android:layout_marginTop="@dimen/margin_between_views"
+        android:padding="@dimen/padding_between_views"
         android:textColor="@color/black"
         android:textSize="@dimen/post_body_text_size"
         tools:text="tvPostBody" />
@@ -37,11 +37,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/warning_label_bg"
-            android:padding="@dimen/text_view_padding"
+            android:padding="@dimen/padding_between_views"
             android:text="@string/warning_label"
             android:textAlignment="viewEnd"
             android:textColor="@color/black"
-            android:textSize="@dimen/post_author_text_size"
+            android:textSize="@dimen/warning_label_text_size"
             android:textStyle="bold"
             android:visibility="gone"
             tools:text="З попередженням" />
@@ -50,7 +50,7 @@
             android:id="@+id/tvPostAuthor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/text_view_padding"
+            android:padding="@dimen/padding_between_views"
             android:textAlignment="viewEnd"
             android:textColor="@color/black"
             android:textSize="@dimen/post_author_text_size"

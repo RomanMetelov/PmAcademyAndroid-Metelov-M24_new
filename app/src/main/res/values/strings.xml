@@ -1,10 +1,22 @@
 <resources>
     <string name="app_name">PmAcademyAndroid-Metelov-M24</string>
 
+    <string name="error_loading_posts">Error loading posts</string>
+    <string name="error">Error undefined</string>
+
     <string name="user_id">Юзер \#%s</string>
     <string name="warning_label">З попередженням</string>
     <string name="user_banned">Тут міг бути пост Юзера \#%s, але він забанений</string>
-    <string name="error_loading_posts">Error loading posts</string>
-    <string name="error">Error undefined</string>
+
+    <string name="new_post">New Post</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="save">Save</string>
+
+    <string name="too_short_error">Too short</string>
+    <string name="too_long_error">Too long</string>
+    <string name="forbidden_words_error">Contains forbidden words</string>
+    <string name="feed_label">Feed</string>
+    <string name="new_post_label">New Post</string>
 
 </resources>

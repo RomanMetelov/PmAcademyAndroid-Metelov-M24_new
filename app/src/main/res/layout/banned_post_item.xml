@@ -4,13 +4,13 @@
     android:layout_height="wrap_content"
     android:background="@color/banned_post_bg"
     android:orientation="vertical"
-    android:padding="@dimen/view_holder_padding">
+    android:padding="@dimen/padding_between_views">
 
     <TextView
         android:id="@+id/tvPostBody"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/text_view_padding"
+        android:padding="@dimen/padding_between_views"
         android:textColor="@color/black"
         android:textSize="@dimen/post_body_text_size" />
 
